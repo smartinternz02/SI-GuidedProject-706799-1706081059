@@ -1,0 +1,163 @@
+
+
+katalonc -noSplash -runMode=console -projectPath="C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github.prj" -retry=0 -testSuitePath="Test Suites/CURA_TestSuites/CURA_Testsuite_TestListners" -browserType="Chrome" -executionProfile="default" -apiKey="92484702-43af-4985-b8ac-3881fc276a4b" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Execution Of Test Cases through Katalon Runtime Engine(Katalon runtime engine(KRE) output generating using cmd) :
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+C:\Users\priyanka\Katalon Studio\Katalon_Studio_Engine_Windows_64-9.3.1>katalonc -noSplash -runMode=console -projectPath="C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github.prj" -retry=0 -testSuitePath="Test Suites/CURA_TestSuites/CURA_Testsuite_TestListners" -browserType="Chrome" -executionProfile="default" -apiKey="92484702-43af-4985-b8ac-3881fc276a4b" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
+Katalon workspace folder is set to default location: C:\Users\priyanka\AppData\Local\Temp\session-68f3ce36
+Starting Groovy-Eclipse compiler resolver. Specified compiler level: unspecified
+167 org.codehaus.groovy_3.0.17.v202303311542-e2303 ACTIVE
+Activating...
+Start getting machine ID on Windows
+Start appending additional signatures
+hardwareSerialNumber pf3emfh0
+osDependentUsername priyanka
+End appending additional signatures 47b05b90-1e36-4000-841e-389338f4561a__priyanka
+End getting machine ID on Windows 66189ac20db1fc1b03b25291e0593e62
+Start activating offline...
+Search for valid offline licenses in folder: C:\Users\priyanka\.katalon\license
+The number of valid offline licenses: 0
+Start activating online...
+Activated successfully with Katalon Runtime Engine license.
+Activated successfully with TestCloud license.
+
+
+INFO: Katalon Version: 9.3.1
+INFO: Command-line arguments: -runMode=console -projectPath=C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github.prj -retry=0 -testSuitePath=Test Suites/CURA_TestSuites/CURA_Testsuite_TestListners -browserType=Chrome -executionProfile=default -apiKey=******** --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
+INFO: User working dir: C:\Users\priyanka\Katalon Studio\Katalon_Studio_Engine_Windows_64-9.3.1
+INFO: Error log: C:/Users/priyanka/AppData/Local/Temp/session-68f3ce36/.metadata/.log
+INFO: Katalon KatOne server URL: https://admin.katalon.com
+INFO: Katalon TestOps server URL: https://testops.katalon.io
+INFO: Katalon Store server URL: https://store.katalon.com
+INFO: User home: C:\Users\priyanka
+INFO: Java vendor: Eclipse Adoptium
+INFO: Java version: 17.0.7
+INFO: Local OS: Windows 11 64bit
+INFO: CPU load: 18%
+INFO: Total memory: 7991 MB
+INFO: Free memory: 831 MB
+INFO: Machine ID: 66189ac20db1fc1b03b25291e0593e62
+
+
+Delete folder: bin
+Delete folder: Libs
+Cleaning up workspace
+Opening project file: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github.prj
+Generating global variables...
+Project 'CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github' opened
+Start reloading plugins...
+Katalon version: 9.3.1
+Plugin info URL: https://store.katalon.com/api/products/ks?appVersion=9.3.1&appType=ENGINE&licenseType=TRIAL
+Start checking license task
+Chrome driver is located at: C:\Users\priyanka\Katalon Studio\Katalon_Studio_Engine_Windows_64-9.3.1\configuration\resources\temp\webdriver\chromedriver.exe
+INFO: KATALON_JAVA_HOME: null
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_TestSuites/CURA_Testsuite_TestListners - Chrome - 20240303_1338
+24.......................................................................0/1(0%)
+--------------------------------------------------------------------------------
+
+2024-03-03 13:38:33.614 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/CURA_TestSuites/CURA_Testsuite_TestListners
+2024-03-03 13:38:33.666 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = priyanka - LAPTOP-LPTFOJFH
+2024-03-03 13:38:33.667 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2024-03-03 13:38:33.667 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.43.178
+2024-03-03 13:38:33.668 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 9.3.1.212
+2024-03-03 13:38:34.038 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+Mar 03, 2024 1:38:34 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+2024-03-03 13:38:34.097 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 24465
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 03, 2024 1:38:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2024-03-03 13:38:37.718 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3294ab27f2aad45bafedde3ab337864f
+2024-03-03 13:38:37.738 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 122.0.0.0
+2024-03-03 13:38:37.738 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2024-03-03 13:38:37.738 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2024-03-03 13:38:37.738 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2024-03-03 13:38:44.950 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2024-03-03 13:38:44.950 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Test Listener/TC_TL_AppointmentConfirmation
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_TestSuites/CURA_Testsuite_TestListners - Chrome - 20240303_1338
+24.......................................................................0/1(0%)
+--------------------------------------------------------------------------------
+
+2024-03-03 13:38:47.855 DEBUG testcase.TC_TL_AppointmentConfirmation   - 1: takeScreenshot()
+2024-03-03 13:38:48.380 DEBUG testcase.TC_TL_AppointmentConfirmation   - 2: click(findTestObject("Page_CURA Healthcare Service/h2_Make Appointment"))
+2024-03-03 13:38:48.772 DEBUG testcase.TC_TL_AppointmentConfirmation   - 3: selectOptionByValue(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true)
+2024-03-03 13:38:49.793 DEBUG testcase.TC_TL_AppointmentConfirmation   - 4: click(findTestObject("Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f"))
+2024-03-03 13:38:50.142 DEBUG testcase.TC_TL_AppointmentConfirmation   - 5: click(findTestObject("Page_CURA Healthcare Service/input_programs"))
+2024-03-03 13:38:50.502 DEBUG testcase.TC_TL_AppointmentConfirmation   - 6: click(findTestObject("Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34"))
+2024-03-03 13:38:50.867 DEBUG testcase.TC_TL_AppointmentConfirmation   - 7: click(findTestObject("Page_CURA Healthcare Service/td_21"))
+2024-03-03 13:38:51.328 DEBUG testcase.TC_TL_AppointmentConfirmation   - 8: setText(findTestObject("Page_CURA Healthcare Service/textarea_Comment_comment"), "Testing")
+2024-03-03 13:38:52.261 DEBUG testcase.TC_TL_AppointmentConfirmation   - 9: takeScreenshot()
+2024-03-03 13:38:52.666 DEBUG testcase.TC_TL_AppointmentConfirmation   - 10: click(findTestObject("Page_CURA Healthcare Service/button_Book Appointment"))
+2024-03-03 13:38:54.185 DEBUG testcase.TC_TL_AppointmentConfirmation   - 11: verifyElementText(findTestObject("Page_CURA Healthcare Service/h2Appointment Confirmation"), "Appointment Confirmation")
+2024-03-03 13:38:54.534 DEBUG testcase.TC_TL_AppointmentConfirmation   - 12: takeScreenshot()
+2024-03-03 13:38:54.915 DEBUG testcase.TC_TL_AppointmentConfirmation   - 13: click(findTestObject("Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle"))
+2024-03-03 13:38:55.296 DEBUG testcase.TC_TL_AppointmentConfirmation   - 14: click(findTestObject("Page_CURA Healthcare Service/a_History"))
+2024-03-03 13:38:56.673 DEBUG testcase.TC_TL_AppointmentConfirmation   - 15: takeScreenshot()
+2024-03-03 13:38:57.282 DEBUG testcase.TC_TL_AppointmentConfirmation   - 16: verifyCheckpoint(findCheckpoint("Checkpoints/Checkpoint_TestData/Cura_AppointmentConfirmation_TestData_Checkpoint"), true)
+2024-03-03 13:38:59.347 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Test Listener/TC_TL_AppointmentConfirmation
+2024-03-03 13:38:59.808 INFO  com.kms.katalon.core.util.KeywordUtil    - Start generating HTML report folder at: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824...
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_TestSuites/CURA_Testsuite_TestListners - Chrome - 20240303_1338
+24.....................................................................1/1(100%)
+--------------------------------------------------------------------------------
+
+2024-03-03 13:39:00.634 INFO  com.kms.katalon.core.util.KeywordUtil    - HTML report generated
+2024-03-03 13:39:00.650 INFO  com.kms.katalon.core.util.KeywordUtil    - Start generating CSV report folder at: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824...
+2024-03-03 13:39:00.685 INFO  com.kms.katalon.core.util.KeywordUtil    - CSV report generated
+2024-03-03 13:39:01.063 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2024-03-03 13:39:01.063 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/CURA_TestSuites/CURA_Testsuite_TestListners
+2024-03-03 13:39:01.063 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
+Launcher status after execution process completed: Running
+Start writing execution.uuid file to folder: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824
+Start generating JUnit report folder at: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824...
+JUnit report were generated at folder: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824
+For real-time monitoring and better reporting capabilities please integrate this project with Katalon TestOps (more details at https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration)
+Uploading report to Katalon TestOps...
+Start sending test result to Katalon TestOps
+Uploading log files of test suite
+Sending file: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824\1709453328212.png
+Sending file: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824\1709453332516.png
+Sending file: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824\1709453334791.png
+Sending file: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824\1709453337162.png
+Sending file: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824\20240303_133824.csv
+Sending file: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824\20240303_133824.html
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_TestSuites/CURA_Testsuite_TestListners - Chrome - 20240303_1338
+24.....................................................................1/1(100%)
+--------------------------------------------------------------------------------
+
+Sending file: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824\execution.properties
+Sending file: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824\execution.uuid
+Sending file: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824\execution0.log
+Sending file: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824\JUnit_Report.xml
+Sending file: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824\testCaseBinding
+Sending file: C:\Users\priyanka\git\CURA_HealthCare_Service_Project_Katalon_automation_Testing_SB_Github\Reports\20240303_133802\CURA_TestSuites\CURA_Testsuite_TestListners\20240303_133824\tsc_id.txt
+Katalon TestOps: Start uploading report to Katalon TestOps server: https://testops.katalon.io
+Katalon TestOps - Execution URL: https://testops.katalon.io/from-ks/execution-result?teamId=1374955&projectId=1394675&id=24693720
+End sending to Katalon TestOps
+Report has been sent to Katalon TestOps
+
+--------------------------------------------------------------------------------
+Test Suites/CURA_TestSuites/CURA_Testsuite_TestListners - Chrome - 20240303_1338
+24.....................................................................1/1(100%)
+--------------------------------------------------------------------------------
+
+Execution completed. Exit code: 0.
+Start clean up session
+End check license task
+End clean up session
+Start release license task
+License released
+End release license task
+All launchers terminated
