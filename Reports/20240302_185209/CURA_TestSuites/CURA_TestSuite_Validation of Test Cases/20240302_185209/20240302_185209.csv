@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_TestSuite_Validation of Test Cases,Chrome 122.0.0.0,,,02-03-2024 18:52:24,02-03-2024 18:53:52,1m - 27.672s,PASSED
+,,,,,,,
+Test Cases/CURA_Validation Of Test Cases/TC_CURA Healthcare Service_LogOut_005,Chrome 122.0.0.0,,,02-03-2024 18:52:25,02-03-2024 18:53:52,1m - 27.034s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 122.0.0.0,,,02-03-2024 18:52:25,02-03-2024 18:52:26,0.637s,ERROR
+"callTestCase(findTestCase(""CURA_Validation Of Test Cases/TC_CURA Healthcare Service_History_004""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,02-03-2024 18:52:26,02-03-2024 18:53:46,1m - 19.955s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 122.0.0.0,,,02-03-2024 18:53:46,02-03-2024 18:53:46,0.323s,PASSED
+takeScreenshot(),Chrome 122.0.0.0,,,02-03-2024 18:53:46,02-03-2024 18:53:47,0.659s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Logout""))",Chrome 122.0.0.0,,,02-03-2024 18:53:47,02-03-2024 18:53:51,4.033s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,02-03-2024 18:53:51,02-03-2024 18:53:52,1.034s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,02-03-2024 18:53:52,02-03-2024 18:53:52,0.067s,ERROR

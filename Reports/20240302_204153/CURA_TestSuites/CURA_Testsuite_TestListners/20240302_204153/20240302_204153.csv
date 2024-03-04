@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Testsuite_TestListners,Chrome 122.0.0.0,,,02-03-2024 20:42:06,02-03-2024 20:43:09,1m - 3.150s,PASSED
+,,,,,,,
+Test Cases/Test Listener/TC_TL_AppointmentConfirmation,Chrome 122.0.0.0,,,02-03-2024 20:42:52,02-03-2024 20:43:09,16.838s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 122.0.0.0,,,02-03-2024 20:42:52,02-03-2024 20:42:56,3.820s,PASSED
+takeScreenshot(),Chrome 122.0.0.0,,,02-03-2024 20:42:56,02-03-2024 20:42:57,0.539s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/h2_Make Appointment""))",Chrome 122.0.0.0,,,02-03-2024 20:42:57,02-03-2024 20:42:57,0.415s,PASSED
+"selectOptionByValue(findTestObject(""Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 122.0.0.0,,,02-03-2024 20:42:57,02-03-2024 20:42:58,1.115s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 122.0.0.0,,,02-03-2024 20:42:58,02-03-2024 20:42:59,0.433s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/input_programs""))",Chrome 122.0.0.0,,,02-03-2024 20:42:59,02-03-2024 20:42:59,0.421s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 122.0.0.0,,,02-03-2024 20:42:59,02-03-2024 20:43:00,0.487s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/td_21""))",Chrome 122.0.0.0,,,02-03-2024 20:43:00,02-03-2024 20:43:00,0.547s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/textarea_Comment_comment""), ""Testing"")",Chrome 122.0.0.0,,,02-03-2024 20:43:00,02-03-2024 20:43:01,0.856s,PASSED
+takeScreenshot(),Chrome 122.0.0.0,,,02-03-2024 20:43:01,02-03-2024 20:43:02,0.385s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 122.0.0.0,,,02-03-2024 20:43:02,02-03-2024 20:43:03,1.147s,PASSED
+"verifyElementText(findTestObject(""Page_CURA Healthcare Service/h2Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 122.0.0.0,,,02-03-2024 20:43:03,02-03-2024 20:43:03,0.539s,PASSED
+takeScreenshot(),Chrome 122.0.0.0,,,02-03-2024 20:43:03,02-03-2024 20:43:04,0.390s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 122.0.0.0,,,02-03-2024 20:43:04,02-03-2024 20:43:04,0.397s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_History""))",Chrome 122.0.0.0,,,02-03-2024 20:43:04,02-03-2024 20:43:06,2.271s,PASSED
+takeScreenshot(),Chrome 122.0.0.0,,,02-03-2024 20:43:06,02-03-2024 20:43:07,0.643s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoint_TestData/Cura_AppointmentConfirmation_TestData_Checkpoint""), true)",Chrome 122.0.0.0,,,02-03-2024 20:43:07,02-03-2024 20:43:07,0.097s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,02-03-2024 20:43:07,02-03-2024 20:43:09,2.047s,PASSED

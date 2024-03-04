@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CURA_Login_Local</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9256fa5-03d1-423e-b7b0-d5691c2ee1d6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9495ebe5-93be-4944-9687-abf33179fc42</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2479ca36-14bb-4a36-9bc4-88a709546fdf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ea1d570-c7ea-4111-a5b6-0cf88891912b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://katalon-demo-cura.herokuapp.com/'</defaultValue>
+      <description></description>
+      <id>9495ebe5-93be-4944-9687-abf33179fc42</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>2479ca36-14bb-4a36-9bc4-88a709546fdf</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>0ea1d570-c7ea-4111-a5b6-0cf88891912b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Variables_Test Suite,,,,02-03-2024 19:08:04,02-03-2024 19:08:24,20.615s,FAILED
+,,,,,,,
+Test Cases/CURA_Validation of Variables/Local and Global Variables/TC_CURA_Login_Global,,,,02-03-2024 19:08:13,02-03-2024 19:08:14,1.139s,FAILED
+Start listener action : sampleBeforeTestCase,,,,02-03-2024 19:08:13,02-03-2024 19:08:13,0.051s,ERROR
+"openBrowser("""")",,,,02-03-2024 19:08:13,02-03-2024 19:08:14,1.009s,FAILED
+Start listener action : sampleAfterTestCase,,,,02-03-2024 19:08:14,02-03-2024 19:08:14,0.053s,ERROR
+,,,,,,,
+Test Cases/CURA_Validation of Variables/Local and Global Variables/TC_CURA_Login_Local,,,,02-03-2024 19:08:18,02-03-2024 19:08:19,1.090s,FAILED
+Start listener action : sampleBeforeTestCase,,,,02-03-2024 19:08:18,02-03-2024 19:08:18,0.049s,ERROR
+"openBrowser("""")",,,,02-03-2024 19:08:18,02-03-2024 19:08:19,0.929s,FAILED
+Start listener action : sampleAfterTestCase,,,,02-03-2024 19:08:19,02-03-2024 19:08:19,0.052s,ERROR
+,,,,,,,
+Test Cases/CURA_Validation of Variables/TC_002 Working with TestCase Variables,,,,02-03-2024 19:08:23,02-03-2024 19:08:24,1.294s,FAILED
+Start listener action : sampleBeforeTestCase,,,,02-03-2024 19:08:23,02-03-2024 19:08:23,0.041s,ERROR
+"openBrowser("""")",,,,02-03-2024 19:08:23,02-03-2024 19:08:24,1.136s,FAILED
+Start listener action : sampleAfterTestCase,,,,02-03-2024 19:08:24,02-03-2024 19:08:24,0.041s,ERROR

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Dropdown_Validation-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>33ddd082-9d69-47f6-99ee-390123e247a5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2a8474e1-2d8d-4a78-bb72-7c3c6ad87720</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>2a8474e1-2d8d-4a78-bb72-7c3c6ad87720</id>
+      <masked>false</masked>
+      <name>Facility</name>
+   </variable>
+</TestCaseEntity>

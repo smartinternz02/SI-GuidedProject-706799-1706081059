@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Variables_Test Suite,Chrome 122.0.0.0,,,02-03-2024 18:52:31,02-03-2024 18:54:10,1m - 38.332s,PASSED
+,,,,,,,
+Test Cases/CURA_Validation of Variables/Local and Global Variables/TC_CURA_Login_Global,Chrome 122.0.0.0,,,02-03-2024 18:52:31,02-03-2024 18:52:55,23.985s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 122.0.0.0,,,02-03-2024 18:52:32,02-03-2024 18:52:32,0.754s,ERROR
+"openBrowser("""")",Chrome 122.0.0.0,,,02-03-2024 18:52:33,02-03-2024 18:52:36,3.274s,PASSED
+navigateToUrl(url),Chrome 122.0.0.0,,,02-03-2024 18:52:36,02-03-2024 18:52:46,9.948s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 122.0.0.0,,,02-03-2024 18:52:46,02-03-2024 18:52:47,0.859s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Login""))",Chrome 122.0.0.0,,,02-03-2024 18:52:47,02-03-2024 18:52:48,1.634s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), username)",Chrome 122.0.0.0,,,02-03-2024 18:52:48,02-03-2024 18:52:49,1.142s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 122.0.0.0,,,02-03-2024 18:52:49,02-03-2024 18:52:51,1.758s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 122.0.0.0,,,02-03-2024 18:52:51,02-03-2024 18:52:55,4.009s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,02-03-2024 18:52:55,02-03-2024 18:52:55,0.222s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,02-03-2024 18:52:55,02-03-2024 18:52:55,0.075s,ERROR
+,,,,,,,
+Test Cases/CURA_Validation of Variables/Local and Global Variables/TC_CURA_Login_Local,Chrome 122.0.0.0,,,02-03-2024 18:52:55,02-03-2024 18:53:32,36.977s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 122.0.0.0,,,02-03-2024 18:52:56,02-03-2024 18:52:56,0.332s,ERROR
+"openBrowser("""")",Chrome 122.0.0.0,,,02-03-2024 18:52:56,02-03-2024 18:52:57,1.209s,PASSED
+navigateToUrl(url),Chrome 122.0.0.0,,,02-03-2024 18:52:57,02-03-2024 18:53:19,21.848s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 122.0.0.0,,,02-03-2024 18:53:19,02-03-2024 18:53:19,0.381s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Login""))",Chrome 122.0.0.0,,,02-03-2024 18:53:19,02-03-2024 18:53:27,7.067s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), username)",Chrome 122.0.0.0,,,02-03-2024 18:53:27,02-03-2024 18:53:27,0.701s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 122.0.0.0,,,02-03-2024 18:53:27,02-03-2024 18:53:28,0.844s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 122.0.0.0,,,02-03-2024 18:53:28,02-03-2024 18:53:32,4.137s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,02-03-2024 18:53:32,02-03-2024 18:53:32,0.217s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,02-03-2024 18:53:32,02-03-2024 18:53:32,0.046s,ERROR
+,,,,,,,
+Test Cases/CURA_Validation of Variables/TC_002 Working with TestCase Variables,Chrome 122.0.0.0,,,02-03-2024 18:53:32,02-03-2024 18:54:10,37.045s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 122.0.0.0,,,02-03-2024 18:53:33,02-03-2024 18:53:33,0.072s,ERROR
+"openBrowser("""")",Chrome 122.0.0.0,,,02-03-2024 18:53:33,02-03-2024 18:53:34,0.967s,PASSED
+expected_title = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 122.0.0.0,,,02-03-2024 18:53:34,02-03-2024 18:53:34,0.000s,PASSED
+navigateToUrl(url),Chrome 122.0.0.0,,,02-03-2024 18:53:34,02-03-2024 18:53:55,21.657s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 122.0.0.0,,,02-03-2024 18:53:55,02-03-2024 18:53:59,3.694s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), username)",Chrome 122.0.0.0,,,02-03-2024 18:53:59,02-03-2024 18:54:00,0.647s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), password)",Chrome 122.0.0.0,,,02-03-2024 18:54:00,02-03-2024 18:54:00,0.648s,PASSED
+sleep(5000),Chrome 122.0.0.0,,,02-03-2024 18:54:00,02-03-2024 18:54:05,5.018s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 122.0.0.0,,,02-03-2024 18:54:05,02-03-2024 18:54:09,3.107s,PASSED
+"actual_title = getText(findTestObject(""Page_CURA Healthcare Service/h2_Make Appointment""))",Chrome 122.0.0.0,,,02-03-2024 18:54:09,02-03-2024 18:54:09,0.660s,PASSED
+"expected_title = ""Make Appointment""",Chrome 122.0.0.0,,,02-03-2024 18:54:09,02-03-2024 18:54:09,0.001s,PASSED
+"verifyEqual(actual_title, expected_title)",Chrome 122.0.0.0,,,02-03-2024 18:54:09,02-03-2024 18:54:09,0.032s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,02-03-2024 18:54:09,02-03-2024 18:54:09,0.244s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,02-03-2024 18:54:09,02-03-2024 18:54:10,0.051s,ERROR

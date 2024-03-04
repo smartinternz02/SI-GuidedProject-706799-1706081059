@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Environment_testsuite,Chrome 122.0.0.0,,,02-03-2024 18:44:10,02-03-2024 18:48:48,4m - 38.876s,PASSED
+,,,,,,,
+Test Cases/Environment/Cura_Login,Chrome 122.0.0.0,,,02-03-2024 18:44:10,02-03-2024 18:48:48,4m - 38.424s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 122.0.0.0,,,02-03-2024 18:44:10,02-03-2024 18:44:10,0.517s,ERROR
+"openBrowser("""")",Chrome 122.0.0.0,,,02-03-2024 18:44:10,02-03-2024 18:44:12,1.933s,PASSED
+navigateToUrl(url),Chrome 122.0.0.0,,,02-03-2024 18:44:12,02-03-2024 18:46:07,1m - 54.709s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,02-03-2024 18:46:07,02-03-2024 18:46:07,0.225s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 122.0.0.0,,,02-03-2024 18:46:07,02-03-2024 18:46:08,0.442s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Login""))",Chrome 122.0.0.0,,,02-03-2024 18:46:08,02-03-2024 18:47:12,1m - 4.464s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 122.0.0.0,,,02-03-2024 18:47:12,02-03-2024 18:47:13,0.747s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 122.0.0.0,,,02-03-2024 18:47:13,02-03-2024 18:47:14,0.765s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 122.0.0.0,,,02-03-2024 18:47:14,02-03-2024 18:48:48,1m - 34.190s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,02-03-2024 18:48:48,02-03-2024 18:48:48,0.182s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,02-03-2024 18:48:48,02-03-2024 18:48:48,0.077s,ERROR
+,,,,,,,
+Test Cases/CheckPoints/Checkpoint_Cura_AppointmentConfirmation_TestData,Chrome 122.0.0.0,,,02-03-2024 18:48:48,02-03-2024 18:48:48,0.242s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 122.0.0.0,,,02-03-2024 18:48:48,02-03-2024 18:48:48,0.051s,ERROR
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoint_TestData/Cura_AppointmentConfirmation_TestData_Checkpoint""), true)",Chrome 122.0.0.0,,,02-03-2024 18:48:48,02-03-2024 18:48:48,0.077s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,02-03-2024 18:48:48,02-03-2024 18:48:48,0.055s,ERROR

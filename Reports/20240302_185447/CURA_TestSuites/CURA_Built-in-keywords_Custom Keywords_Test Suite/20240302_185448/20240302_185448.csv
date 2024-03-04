@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Built-in-keywords_Custom Keywords_Test Suite,,,,02-03-2024 18:55:02,02-03-2024 18:55:09,7.634s,FAILED
+,,,,,,,
+Test Cases/Built-in-Keywords -Demo,,,,02-03-2024 18:55:08,02-03-2024 18:55:09,1.032s,FAILED
+Start listener action : sampleBeforeTestCase,,,,02-03-2024 18:55:08,02-03-2024 18:55:08,0.067s,ERROR
+"openBrowser("""")",,,,02-03-2024 18:55:08,02-03-2024 18:55:09,0.897s,FAILED
+Start listener action : sampleAfterTestCase,,,,02-03-2024 18:55:09,02-03-2024 18:55:09,0.045s,ERROR
+,,,,,,,
+Test Cases/Custom Keywords/TC_Keyword_001,,,,02-03-2024 18:55:09,02-03-2024 18:55:09,0.255s,PASSED
+Start listener action : sampleBeforeTestCase,,,,02-03-2024 18:55:09,02-03-2024 18:55:09,0.064s,ERROR
+com.qa.test.customFunctions.PrintHello(),,,,02-03-2024 18:55:09,02-03-2024 18:55:09,0.030s,PASSED
+"com.qa.test.customFunctions.PrintName(""Successfully"")",,,,02-03-2024 18:55:09,02-03-2024 18:55:09,0.006s,PASSED
+Start listener action : sampleAfterTestCase,,,,02-03-2024 18:55:09,02-03-2024 18:55:09,0.058s,ERROR

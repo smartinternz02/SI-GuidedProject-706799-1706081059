@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Keywords_TS,,,,02-03-2024 19:05:45,02-03-2024 19:05:47,2.232s,PASSED
+,,,,,,,
+Test Cases/Custom Keywords/TC_Keyword_001,,,,02-03-2024 19:05:46,02-03-2024 19:05:47,1.325s,PASSED
+Start listener action : sampleBeforeTestCase,,,,02-03-2024 19:05:46,02-03-2024 19:05:47,0.599s,ERROR
+com.qa.test.customFunctions.PrintHello(),,,,02-03-2024 19:05:47,02-03-2024 19:05:47,0.048s,PASSED
+"com.qa.test.customFunctions.PrintName(""Successfully"")",,,,02-03-2024 19:05:47,02-03-2024 19:05:47,0.053s,PASSED
+Start listener action : sampleAfterTestCase,,,,02-03-2024 19:05:47,02-03-2024 19:05:47,0.169s,ERROR

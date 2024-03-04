@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Basic_Advanced_Assertion_Browser_Operations,Chrome 122.0.0.0,,,02-03-2024 18:38:10,02-03-2024 18:39:03,52.875s,PASSED
+,,,,,,,
+Test Cases/Browser operations in Katalon/TC_001 Basic_Advanced Browser Operations,Chrome 122.0.0.0,,,02-03-2024 18:38:10,02-03-2024 18:38:50,39.710s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 122.0.0.0,,,02-03-2024 18:38:10,02-03-2024 18:38:11,0.487s,ERROR
+"openBrowser("""")",Chrome 122.0.0.0,,,02-03-2024 18:38:11,02-03-2024 18:38:13,2.188s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 122.0.0.0,,,02-03-2024 18:38:13,02-03-2024 18:38:18,5.336s,PASSED
+getWindowTitle(),Chrome 122.0.0.0,,,02-03-2024 18:38:18,02-03-2024 18:38:18,0.034s,PASSED
+print(getWindowTitle()),Chrome 122.0.0.0,,,02-03-2024 18:38:18,02-03-2024 18:38:18,0.031s,PASSED
+getUrl(),Chrome 122.0.0.0,,,02-03-2024 18:38:18,02-03-2024 18:38:19,0.033s,PASSED
+getWindowIndex(),Chrome 122.0.0.0,,,02-03-2024 18:38:19,02-03-2024 18:38:19,0.102s,PASSED
+currentTab = getWindowIndex(),Chrome 122.0.0.0,,,02-03-2024 18:38:19,02-03-2024 18:38:19,0.057s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,02-03-2024 18:38:19,02-03-2024 18:38:19,0.457s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 122.0.0.0,,,02-03-2024 18:38:19,02-03-2024 18:38:20,0.385s,PASSED
+delay(3),Chrome 122.0.0.0,,,02-03-2024 18:38:20,02-03-2024 18:38:23,3.039s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Login""))",Chrome 122.0.0.0,,,02-03-2024 18:38:23,02-03-2024 18:38:24,1.046s,PASSED
+delay(3),Chrome 122.0.0.0,,,02-03-2024 18:38:24,02-03-2024 18:38:27,3.015s,PASSED
+back(),Chrome 122.0.0.0,,,02-03-2024 18:38:27,02-03-2024 18:38:27,0.581s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 122.0.0.0,,,02-03-2024 18:38:27,02-03-2024 18:38:28,0.464s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Login""))",Chrome 122.0.0.0,,,02-03-2024 18:38:28,02-03-2024 18:38:38,10.162s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 122.0.0.0,,,02-03-2024 18:38:38,02-03-2024 18:38:39,0.801s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 122.0.0.0,,,02-03-2024 18:38:39,02-03-2024 18:38:39,0.664s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 122.0.0.0,,,02-03-2024 18:38:39,02-03-2024 18:38:41,1.507s,PASSED
+delay(3),Chrome 122.0.0.0,,,02-03-2024 18:38:41,02-03-2024 18:38:44,3.007s,PASSED
+forward(),Chrome 122.0.0.0,,,02-03-2024 18:38:44,02-03-2024 18:38:44,0.048s,PASSED
+back(),Chrome 122.0.0.0,,,02-03-2024 18:38:44,02-03-2024 18:38:44,0.480s,PASSED
+"switchToWindowTitle(""CURA Healthcare Service"")",Chrome 122.0.0.0,,,02-03-2024 18:38:44,02-03-2024 18:38:44,0.068s,PASSED
+getWindowIndex(),Chrome 122.0.0.0,,,02-03-2024 18:38:44,02-03-2024 18:38:44,0.011s,PASSED
+"closeWindowTitle(""CURA Healthcare Service"")",Chrome 122.0.0.0,,,02-03-2024 18:38:44,02-03-2024 18:38:45,0.209s,PASSED
+delay(3),Chrome 122.0.0.0,,,02-03-2024 18:38:45,02-03-2024 18:38:48,3.017s,PASSED
+delay(2),Chrome 122.0.0.0,,,02-03-2024 18:38:48,02-03-2024 18:38:50,2.038s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,02-03-2024 18:38:50,02-03-2024 18:38:50,0.103s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,02-03-2024 18:38:50,02-03-2024 18:38:50,0.054s,ERROR
+,,,,,,,
+Test Cases/Browser operations in Katalon/TC_002 Assertion In Katalon,Chrome 122.0.0.0,,,02-03-2024 18:38:50,02-03-2024 18:39:03,12.975s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 122.0.0.0,,,02-03-2024 18:38:50,02-03-2024 18:38:50,0.097s,ERROR
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 122.0.0.0,,,02-03-2024 18:38:50,02-03-2024 18:38:56,6.363s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,02-03-2024 18:38:56,02-03-2024 18:38:57,0.133s,PASSED
+title = getWindowTitle(),Chrome 122.0.0.0,,,02-03-2024 18:38:57,02-03-2024 18:38:57,0.023s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 122.0.0.0,,,02-03-2024 18:38:57,02-03-2024 18:38:58,1.196s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 122.0.0.0,,,02-03-2024 18:38:58,02-03-2024 18:38:58,0.636s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 122.0.0.0,,,02-03-2024 18:38:58,02-03-2024 18:38:59,0.632s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 122.0.0.0,,,02-03-2024 18:38:59,02-03-2024 18:39:01,1.488s,PASSED
+delay(2),Chrome 122.0.0.0,,,02-03-2024 18:39:01,02-03-2024 18:39:03,2.023s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,02-03-2024 18:39:03,02-03-2024 18:39:03,0.191s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,02-03-2024 18:39:03,02-03-2024 18:39:03,0.048s,ERROR

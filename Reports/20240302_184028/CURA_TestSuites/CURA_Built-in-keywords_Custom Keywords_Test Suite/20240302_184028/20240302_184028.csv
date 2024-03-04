@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Built-in-keywords_Custom Keywords_Test Suite,Chrome 122.0.0.0,,,02-03-2024 18:40:48,02-03-2024 18:41:45,57.272s,PASSED
+,,,,,,,
+Test Cases/Built-in-Keywords -Demo,Chrome 122.0.0.0,,,02-03-2024 18:40:48,02-03-2024 18:41:45,56.684s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 122.0.0.0,,,02-03-2024 18:40:48,02-03-2024 18:40:49,0.497s,ERROR
+"openBrowser("""")",Chrome 122.0.0.0,,,02-03-2024 18:40:49,02-03-2024 18:40:50,1.592s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 122.0.0.0,,,02-03-2024 18:40:50,02-03-2024 18:41:03,12.752s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,02-03-2024 18:41:03,02-03-2024 18:41:03,0.204s,PASSED
+url = getUrl(),Chrome 122.0.0.0,,,02-03-2024 18:41:03,02-03-2024 18:41:03,0.068s,PASSED
+out.println(url),Chrome 122.0.0.0,,,02-03-2024 18:41:03,02-03-2024 18:41:03,0.030s,PASSED
+out.println(getWindowIndex()),Chrome 122.0.0.0,,,02-03-2024 18:41:03,02-03-2024 18:41:03,0.100s,PASSED
+out.println(getWindowTitle()),Chrome 122.0.0.0,,,02-03-2024 18:41:04,02-03-2024 18:41:04,0.062s,PASSED
+delay(6),Chrome 122.0.0.0,,,02-03-2024 18:41:04,02-03-2024 18:41:10,6.034s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 122.0.0.0,,,02-03-2024 18:41:10,02-03-2024 18:41:14,4.573s,PASSED
+delay(5),Chrome 122.0.0.0,,,02-03-2024 18:41:14,02-03-2024 18:41:19,5.006s,PASSED
+back(),Chrome 122.0.0.0,,,02-03-2024 18:41:19,02-03-2024 18:41:19,0.067s,PASSED
+delay(5),Chrome 122.0.0.0,,,02-03-2024 18:41:19,02-03-2024 18:41:24,5.009s,PASSED
+forward(),Chrome 122.0.0.0,,,02-03-2024 18:41:24,02-03-2024 18:41:39,15.126s,PASSED
+delay(5),Chrome 122.0.0.0,,,02-03-2024 18:41:39,02-03-2024 18:41:44,5.012s,PASSED
+out.println(getUrl()),Chrome 122.0.0.0,,,02-03-2024 18:41:44,02-03-2024 18:41:44,0.022s,PASSED
+windowno = getWindowIndex(),Chrome 122.0.0.0,,,02-03-2024 18:41:44,02-03-2024 18:41:44,0.016s,PASSED
+out.println(windowno),Chrome 122.0.0.0,,,02-03-2024 18:41:44,02-03-2024 18:41:44,0.000s,PASSED
+out.println(getWindowTitle()),Chrome 122.0.0.0,,,02-03-2024 18:41:44,02-03-2024 18:41:44,0.013s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,02-03-2024 18:41:44,02-03-2024 18:41:45,0.173s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,02-03-2024 18:41:45,02-03-2024 18:41:45,0.120s,ERROR
+,,,,,,,
+Test Cases/Custom Keywords/TC_Keyword_001,Chrome 122.0.0.0,,,02-03-2024 18:41:45,02-03-2024 18:41:45,0.379s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 122.0.0.0,,,02-03-2024 18:41:45,02-03-2024 18:41:45,0.067s,ERROR
+com.qa.test.customFunctions.PrintHello(),Chrome 122.0.0.0,,,02-03-2024 18:41:45,02-03-2024 18:41:45,0.025s,PASSED
+"com.qa.test.customFunctions.PrintName(""Successfully"")",Chrome 122.0.0.0,,,02-03-2024 18:41:45,02-03-2024 18:41:45,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,02-03-2024 18:41:45,02-03-2024 18:41:45,0.100s,ERROR

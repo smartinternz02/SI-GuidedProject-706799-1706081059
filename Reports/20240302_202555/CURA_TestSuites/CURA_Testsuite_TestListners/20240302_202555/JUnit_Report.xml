@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CURA_Testsuite_TestListners" time="418.983" tests="1" failures="1" errors="0">
+   <testsuite name="CURA_Testsuite_TestListners" tests="1" failures="1" errors="0" time="418.983" skipped="0" timestamp="02-03-2024T20:26:04" hostname="priyanka - LAPTOP-LPTFOJFH" id="Test Suites/CURA_TestSuites/CURA_Testsuite_TestListners">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_202555\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240302_202555"/>
+         <property name="logFiles" value="C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_202555\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240302_202555\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_202555\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240302_202555\\1709391376378.png, C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_202555\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240302_202555\\1709391445228.png, C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_202555\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240302_202555\\1709391480421.png, C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_202555\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240302_202555\\1709391548403.png, C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_202555\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240302_202555\\1709391581854.png, C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_202555\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240302_202555\\1709391649669.png, C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_202555\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240302_202555\\1709391683380.png, C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_202555\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240302_202555\\1709391751237.png"/>
+         <property name="hostName" value="priyanka - LAPTOP-LPTFOJFH"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.43.178"/>
+         <property name="sessionId" value="5a17cd7c82e22469aef4df6ce91f7b71"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Test Listener/TC_TL_AppointmentConfirmation" time="101.644" classname="Test Cases/Test Listener/TC_TL_AppointmentConfirmation" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test Listener/TC_TL_AppointmentConfirmation FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)&#xa;	at TC_TL_AppointmentConfirmation.run(TC_TL_AppointmentConfirmation:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709391355363.run(TempTestSuite1709391355363.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107' located by '//select[@id='combo_facility']' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[02-03-2024T20:31:21 - [TEST_CASE][FAILED] - Test Cases/Test Listener/TC_TL_AppointmentConfirmation: Test Cases/Test Listener/TC_TL_AppointmentConfirmation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at TC_TL_AppointmentConfirmation.run(TC_TL_AppointmentConfirmation:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709391355363.run(TempTestSuite1709391355363.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107' located by '//select[@id='combo_facility']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:31:21 - [TEST_STEP][ERROR] - Start listener action : sampleBeforeTestCase: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, String) values: [TestObject - 'Object Repository/Page_CURA Healthcare Service/h2_Login', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709391355363.run(TempTestSuite1709391355363.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, String) values: [TestObject - 'Object Repository/Page_CURA Healthcare Service/h2_Login', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at CURA_TL_AppointmentConfirmation.sampleBeforeTestCase(CURA_TL_AppointmentConfirmation.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	... 18 more
+
+
+02-03-2024T20:31:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+02-03-2024T20:31:22 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+02-03-2024T20:31:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+02-03-2024T20:31:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+02-03-2024T20:31:23 - [TEST_STEP][ERROR] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/h2_Login"), "Login"): org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, String) values: [TestObject - 'Object Repository/Page_CURA Healthcare Service/h2_Login', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709391355363.run(TempTestSuite1709391355363.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, String) values: [TestObject - 'Object Repository/Page_CURA Healthcare Service/h2_Login', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at CURA_TL_AppointmentConfirmation.sampleBeforeTestCase(CURA_TL_AppointmentConfirmation.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	... 18 more
+
+
+02-03-2024T20:31:23 - [MESSAGE][ERROR] - org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, String) values: [TestObject - 'Object Repository/Page_CURA Healthcare Service/h2_Login', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709391355363.run(TempTestSuite1709391355363.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, String) values: [TestObject - 'Object Repository/Page_CURA Healthcare Service/h2_Login', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at CURA_TL_AppointmentConfirmation.sampleBeforeTestCase(CURA_TL_AppointmentConfirmation.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	... 18 more
+
+
+02-03-2024T20:31:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+02-03-2024T20:31:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_202555\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240302_202555\\1709391683380.png]]
+
+02-03-2024T20:31:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/h2_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/h2_Make Appointment' is clicked on
+
+02-03-2024T20:31:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='appointment']/div/div/div/h2'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-03-2024T20:31:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_CURA Healthcare Service/h2_Make Appointment'. Try using Self-healing.
+
+02-03-2024T20:31:55 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_CURA Healthcare Service/h2_Make Appointment' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/following::h2[1]'.
+
+02-03-2024T20:31:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/h2_Make Appointment' is clicked on
+
+02-03-2024T20:31:55 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at TC_TL_AppointmentConfirmation.run(TC_TL_AppointmentConfirmation:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709391355363.run(TempTestSuite1709391355363.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107' located by '//select[@id='combo_facility']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at Script1709382321315.run(Script1709382321315.groovy:24)
+	... 18 more
+)
+
+02-03-2024T20:32:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='combo_facility']'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-03-2024T20:32:26 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'. Try using Self-healing.
+
+02-03-2024T20:32:26 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//select[@id='combo_facility']'.
+
+02-03-2024T20:32:26 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//section[@id='appointment']/div/div/form/div/div/select'.
+
+02-03-2024T20:32:27 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Facility'])[1]/following::select[1]'.
+
+02-03-2024T20:32:27 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[2]/following::select[1]'.
+
+02-03-2024T20:32:27 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Healthcare Program'])[1]/preceding::select[1]'.
+
+02-03-2024T20:32:27 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//select'.
+
+02-03-2024T20:32:28 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//select[@id = 'combo_facility' and @name = 'facility' and (text() = '
+                            Tokyo CURA Healthcare Center
+                            Hongkong CURA Healthcare Center
+                            Seoul CURA Healthcare Center
+                        ' or . = '
+                            Tokyo CURA Healthcare Center
+                            Hongkong CURA Healthcare Center
+                            Seoul CURA Healthcare Center
+                        ')]'.
+
+02-03-2024T20:32:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'combo_facility' and @name = 'facility' and (text() = '
+                            Tokyo CURA Healthcare Center
+                            Hongkong CURA Healthcare Center
+                            Seoul CURA Healthcare Center
+                        ' or . = '
+                            Tokyo CURA Healthcare Center
+                            Hongkong CURA Healthcare Center
+                            Seoul CURA Healthcare Center
+                        ')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-03-2024T20:32:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #combo_facility'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-03-2024T20:32:31 - [MESSAGE][FAILED] - Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at TC_TL_AppointmentConfirmation.run(TC_TL_AppointmentConfirmation:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709391355363.run(TempTestSuite1709391355363.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107' located by '//select[@id='combo_facility']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at Script1709382321315.run(Script1709382321315.groovy:24)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_202555\\CURA_TestSuites\\CURA_Testsuite_TestListners\\20240302_202555\\1709391751237.png]]
+
+02-03-2024T20:32:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+02-03-2024T20:32:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+02-03-2024T20:32:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+02-03-2024T20:32:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+02-03-2024T20:33:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//a[@onclick="$('#menu-close').click();"])[5]'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-03-2024T20:33:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_CURA Healthcare Service/a_Logout'. Try using Self-healing.
+
+02-03-2024T20:33:03 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_CURA Healthcare Service/a_Logout' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[2]/preceding::a[1]'.
+
+02-03-2024T20:33:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[02-03-2024T20:31:21 - [TEST_CASE][FAILED] - Test Cases/Test Listener/TC_TL_AppointmentConfirmation: Test Cases/Test Listener/TC_TL_AppointmentConfirmation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at TC_TL_AppointmentConfirmation.run(TC_TL_AppointmentConfirmation:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709391355363.run(TempTestSuite1709391355363.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107' located by '//select[@id='combo_facility']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-03-2024T20:26:04 - [TEST_SUITE][FAILED] - CURA_Testsuite_TestListners: Test Cases/Test Listener/TC_TL_AppointmentConfirmation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at TC_TL_AppointmentConfirmation.run(TC_TL_AppointmentConfirmation:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709391355363.run(TempTestSuite1709391355363.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107' located by '//select[@id='combo_facility']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[02-03-2024T20:26:04 - [TEST_SUITE][FAILED] - CURA_Testsuite_TestListners: Test Cases/Test Listener/TC_TL_AppointmentConfirmation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Hongkong CURA Healthcare Center' of object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at TC_TL_AppointmentConfirmation.run(TC_TL_AppointmentConfirmation:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709391355363.run(TempTestSuite1709391355363.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107' located by '//select[@id='combo_facility']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Cross Browser Testing Using Test Cloud,Windows - Chrome 121.0.0.0,,,02-03-2024 20:14:40,02-03-2024 20:24:26,9m - 46.267s,PASSED
+,,,,,,,
+Test Cases/TC_CURA_MakeApointment,Windows - Chrome 121.0.0.0,,,02-03-2024 20:14:40,02-03-2024 20:24:26,9m - 46.045s,PASSED
+Start listener action : sampleBeforeTestCase,Windows - Chrome 121.0.0.0,,,02-03-2024 20:14:40,02-03-2024 20:14:41,0.513s,ERROR
+"openBrowser("""")",Windows - Chrome 121.0.0.0,,,02-03-2024 20:14:41,02-03-2024 20:15:17,35.931s,PASSED
+example.MyKeywords.AppLogin(),Windows - Chrome 121.0.0.0,,,02-03-2024 20:15:17,02-03-2024 20:16:24,1m - 6.482s,PASSED
+for (def n : (0..2)),Windows - Chrome 121.0.0.0,,,02-03-2024 20:16:24,02-03-2024 20:20:38,4m - 14.922s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Windows - Chrome 121.0.0.0,,,02-03-2024 20:20:38,02-03-2024 20:20:43,4.848s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_History""))",Windows - Chrome 121.0.0.0,,,02-03-2024 20:20:43,02-03-2024 20:20:50,7.082s,PASSED
+takeScreenshot(),Windows - Chrome 121.0.0.0,,,02-03-2024 20:20:50,02-03-2024 20:21:01,10.789s,PASSED
+"verifyElementText(findTestObject(""Page_CURA Healthcare Service/div_History""), ""History"")",Windows - Chrome 121.0.0.0,,,02-03-2024 20:21:01,02-03-2024 20:21:07,5.385s,PASSED
+closeBrowser(),Windows - Chrome 121.0.0.0,,,02-03-2024 20:21:07,02-03-2024 20:21:09,2.143s,PASSED
+Start listener action : sampleAfterTestCase,Windows - Chrome 121.0.0.0,,,02-03-2024 20:21:09,02-03-2024 20:24:26,3m - 17.701s,ERROR

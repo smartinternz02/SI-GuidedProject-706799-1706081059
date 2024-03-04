@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_003 Working with global Variables</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e639629e-1b10-4d9a-92e1-495364a4037f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2768c2f-07b4-4eaf-9128-63532f36b54c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd4b0596-02cf-4a14-86e8-4df84137652a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Make Appointment'</defaultValue>
+      <description></description>
+      <id>f2768c2f-07b4-4eaf-9128-63532f36b54c</id>
+      <masked>false</masked>
+      <name>actual_title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Make Appointment'</defaultValue>
+      <description></description>
+      <id>cd4b0596-02cf-4a14-86e8-4df84137652a</id>
+      <masked>false</masked>
+      <name>expected_title</name>
+   </variable>
+</TestCaseEntity>

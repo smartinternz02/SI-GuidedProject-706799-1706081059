@@ -1,0 +1,1 @@
+Test Suites/CURA_TestSuiteCollection/TSC_Cross Browser_Testing_Using Test Cloud,chrome,edge chromium

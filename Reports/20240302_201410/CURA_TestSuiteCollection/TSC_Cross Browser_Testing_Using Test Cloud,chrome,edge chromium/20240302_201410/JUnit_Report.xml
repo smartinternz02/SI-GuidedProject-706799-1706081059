@@ -1,0 +1,2004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC_Cross Browser_Testing_Using Test Cloud,chrome,edge chromium" time="612.172" tests="3" failures="0" errors="0">
+   <testsuite name="TS_Cross Browser Testing Using Test Cloud" tests="1" failures="0" errors="0" time="586.267" skipped="0" timestamp="02-03-2024T20:14:40" hostname="priyanka - LAPTOP-LPTFOJFH" id="Test Suites/CURA_TestSuites/TS_Cross Browser Testing Using Test Cloud">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_201410\\CURA_TestSuites\\TS_Cross Browser Testing Using Test Cloud\\20240302_201411"/>
+         <property name="logFiles" value="C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_201410\\CURA_TestSuites\\TS_Cross Browser Testing Using Test Cloud\\20240302_201411\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_201410\\CURA_TestSuites\\TS_Cross Browser Testing Using Test Cloud\\20240302_201411\\1709391055028.png"/>
+         <property name="hostName" value="priyanka - LAPTOP-LPTFOJFH"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;requestId&quot;: &quot;5de7f3c8-245e-4db5-937c-2f0ce652fa25&quot;,&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;121.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;unlimitedExecutionMinutes&quot;: true,&#xa;    &quot;userId&quot;: 1459800,&#xa;    &quot;organizationId&quot;: &quot;1422011&quot;,&#xa;    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;121.0.6167.8 (4aa41a0c90a47035445354a3512460995acfedc1-refs/branch-heads/6167@{#52})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Windows\\SystemTemp\\scoped_dir7580_40582957&quot;&#xa;  },&#xa;  &quot;os&quot;: &quot;windows&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;version&quot;: &quot;121&quot;,&#xa;  &quot;se:cdp&quot;: &quot;ws://172.48.62.105:4444/session/8bf1f77421dd2cf5736ec70647c4e31f/se/cdp&quot;,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.43.178"/>
+         <property name="sessionId" value="8bf1f77421dd2cf5736ec70647c4e31f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_CURA_MakeApointment" time="586.045" classname="Test Cases/TC_CURA_MakeApointment" status="PASSED">
+         <system-out><![CDATA[02-03-2024T20:14:40 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_MakeApointment: Test Cases/TC_CURA_MakeApointment
+
+02-03-2024T20:14:40 - [TEST_STEP][ERROR] - Start listener action : sampleBeforeTestCase: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'John Doe' of object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CURA_TL_AppointmentConfirmation.sampleBeforeTestCase(CURA_TL_AppointmentConfirmation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390651349.run(TempTestSuite1709390651349.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1064)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:1049)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:1035)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1020)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:14:41 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): com.kms.katalon.core.exception.StepFailedException: Unable to set text 'John Doe' of object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CURA_TL_AppointmentConfirmation.sampleBeforeTestCase(CURA_TL_AppointmentConfirmation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390651349.run(TempTestSuite1709390651349.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1064)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:1049)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:1035)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1020)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:14:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_CURA Healthcare Service/input_Username_username'. Try using Self-healing.
+
+02-03-2024T20:14:41 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+02-03-2024T20:14:41 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+02-03-2024T20:14:41 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+02-03-2024T20:14:41 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+02-03-2024T20:14:41 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+02-03-2024T20:14:41 - [MESSAGE][WARNING] - Cannot take screenshot
+
+02-03-2024T20:14:41 - [MESSAGE][FAILED] - Unable to set text 'John Doe' of object 'Object Repository/Page_CURA Healthcare Service/input_Username_username' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'John Doe' of object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CURA_TL_AppointmentConfirmation.sampleBeforeTestCase(CURA_TL_AppointmentConfirmation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390651349.run(TempTestSuite1709390651349.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1064)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:1049)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:1035)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1020)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+02-03-2024T20:14:41 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Unable to set text 'John Doe' of object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CURA_TL_AppointmentConfirmation.sampleBeforeTestCase(CURA_TL_AppointmentConfirmation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390651349.run(TempTestSuite1709390651349.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1064)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:1049)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:1035)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1020)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:14:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-03-2024T20:14:41 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+02-03-2024T20:14:41 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+02-03-2024T20:14:41 - [MESSAGE][INFO] - User set preference: ['browserVersion', '121']
+
+02-03-2024T20:14:41 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1422011, tunnelId=, usingTunnel=false}']
+
+02-03-2024T20:14:41 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+02-03-2024T20:14:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-03-2024T20:15:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-03-2024T20:15:17 - [TEST_STEP][PASSED] - example.MyKeywords.AppLogin(): example.MyKeywords.AppLogin is PASSED
+
+02-03-2024T20:15:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+02-03-2024T20:15:19 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+02-03-2024T20:15:20 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+02-03-2024T20:15:20 - [MESSAGE][INFO] - User set preference: ['browserVersion', '121']
+
+02-03-2024T20:15:20 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1422011, tunnelId=, usingTunnel=false}']
+
+02-03-2024T20:15:20 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+02-03-2024T20:15:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-03-2024T20:15:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-03-2024T20:15:53 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+02-03-2024T20:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+02-03-2024T20:16:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+02-03-2024T20:16:14 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+02-03-2024T20:16:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+02-03-2024T20:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+02-03-2024T20:16:24 - [MESSAGE][PASSED] - example.MyKeywords.AppLogin is PASSED
+
+02-03-2024T20:16:24 - [TEST_STEP][PASSED] - for (def n : (0..2)): example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:16:24 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), 1): All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:16:42 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:16:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:16:47 - [TEST_STEP][PASSED] - if (n == 0): Delayed 1 second(s)
+
+02-03-2024T20:16:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:16:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+02-03-2024T20:16:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+02-03-2024T20:16:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/txtVisitDate"), "02/09/2022"): Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:17:03 - [MESSAGE][PASSED] - Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:17:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/textarea_Comment_comment"), "Test Katalon"): Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:17:22 - [MESSAGE][PASSED] - Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:17:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:17:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2Appointment Confirmation"), 3): Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:17:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:17:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnGotoHomepage")): Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:17:38 - [TEST_STEP][PASSED] - example.MyKeywords.Congrats("You"): example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:17:38 - [MESSAGE][PASSED] - example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:17:38 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), 1): All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:18:32 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:18:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:18:37 - [TEST_STEP][PASSED] - if (n == 0): null
+
+02-03-2024T20:18:37 - [TEST_STEP][PASSED] - else if (n == 1): Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:18:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:18:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/txtVisitDate"), "02/09/2022"): Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:18:57 - [MESSAGE][PASSED] - Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:18:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/textarea_Comment_comment"), "Test Katalon"): Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:19:11 - [MESSAGE][PASSED] - Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:19:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:19:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2Appointment Confirmation"), 3): Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:19:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:19:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnGotoHomepage")): Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:19:26 - [TEST_STEP][PASSED] - example.MyKeywords.Congrats("You"): example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:19:26 - [MESSAGE][PASSED] - example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:19:26 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), 1): All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:19:48 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:19:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:19:53 - [TEST_STEP][PASSED] - if (n == 0): null
+
+02-03-2024T20:19:53 - [TEST_STEP][PASSED] - else if (n == 1): null
+
+02-03-2024T20:19:53 - [TEST_STEP][PASSED] - else: Delayed 1 second(s)
+
+02-03-2024T20:19:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:19:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+02-03-2024T20:19:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+02-03-2024T20:19:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/txtVisitDate"), "02/09/2022"): Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:20:13 - [MESSAGE][PASSED] - Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:20:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/textarea_Comment_comment"), "Test Katalon"): Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:20:24 - [MESSAGE][PASSED] - Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:20:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:20:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2Appointment Confirmation"), 3): Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:20:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:20:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnGotoHomepage")): Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:20:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:20:38 - [TEST_STEP][PASSED] - example.MyKeywords.Congrats("You"): example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:20:38 - [MESSAGE][PASSED] - example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:20:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+02-03-2024T20:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+02-03-2024T20:20:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_History")): Object: 'Object Repository/Page_CURA Healthcare Service/a_History' is clicked on
+
+02-03-2024T20:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_History' is clicked on
+
+02-03-2024T20:20:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+02-03-2024T20:21:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_201410\\CURA_TestSuites\\TS_Cross Browser Testing Using Test Cloud\\20240302_201411\\1709391055028.png]]
+
+02-03-2024T20:21:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_CURA Healthcare Service/div_History"), "History"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/div_History' are matched.
+
+02-03-2024T20:21:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/div_History' are matched.
+
+02-03-2024T20:21:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-03-2024T20:21:09 - [MESSAGE][PASSED] - Browser is closed
+
+02-03-2024T20:21:09 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at CURA_TL_AppointmentConfirmation.sampleAfterTestCase(CURA_TL_AppointmentConfirmation.groovy:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390651349.run(TempTestSuite1709390651349.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:21:09 - [TEST_STEP][ERROR] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at CURA_TL_AppointmentConfirmation.sampleAfterTestCase(CURA_TL_AppointmentConfirmation.groovy:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390651349.run(TempTestSuite1709390651349.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:21:09 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'. Try using Self-healing.
+
+02-03-2024T20:21:09 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+02-03-2024T20:24:26 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+02-03-2024T20:24:26 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+02-03-2024T20:24:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+02-03-2024T20:24:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at CURA_TL_AppointmentConfirmation.sampleAfterTestCase(CURA_TL_AppointmentConfirmation.groovy:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390651349.run(TempTestSuite1709390651349.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+02-03-2024T20:24:26 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at CURA_TL_AppointmentConfirmation.sampleAfterTestCase(CURA_TL_AppointmentConfirmation.groovy:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390651349.run(TempTestSuite1709390651349.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-03-2024T20:14:40 - [TEST_SUITE][PASSED] - TS_Cross Browser Testing Using Test Cloud: Test Cases/TC_CURA_MakeApointment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_Cross Browser Testing Using Test Cloud" tests="1" failures="0" errors="0" time="49.338" skipped="0" timestamp="02-03-2024T20:14:49" hostname="priyanka - LAPTOP-LPTFOJFH" id="Test Suites/CURA_TestSuites/TS_Cross Browser Testing Using Test Cloud">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_201410\\CURA_TestSuites\\TS_Cross Browser Testing Using Test Cloud\\20240302_201413"/>
+         <property name="logFiles" value="C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_201410\\CURA_TestSuites\\TS_Cross Browser Testing Using Test Cloud\\20240302_201413\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_201410\\CURA_TestSuites\\TS_Cross Browser Testing Using Test Cloud\\20240302_201413\\1709390736543.png"/>
+         <property name="hostName" value="priyanka - LAPTOP-LPTFOJFH"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.43.178"/>
+         <property name="sessionId" value="53fea904c4cc164c7b16c920332afda2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_CURA_MakeApointment" time="49.164" classname="Test Cases/TC_CURA_MakeApointment" status="PASSED">
+         <system-out><![CDATA[02-03-2024T20:14:49 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_MakeApointment: Test Cases/TC_CURA_MakeApointment
+
+02-03-2024T20:14:49 - [TEST_STEP][ERROR] - Start listener action : sampleBeforeTestCase: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'John Doe' of object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CURA_TL_AppointmentConfirmation.sampleBeforeTestCase(CURA_TL_AppointmentConfirmation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390653862.run(TempTestSuite1709390653862.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1064)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:1049)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:1035)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1020)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:14:49 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): com.kms.katalon.core.exception.StepFailedException: Unable to set text 'John Doe' of object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CURA_TL_AppointmentConfirmation.sampleBeforeTestCase(CURA_TL_AppointmentConfirmation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390653862.run(TempTestSuite1709390653862.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1064)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:1049)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:1035)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1020)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:14:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_CURA Healthcare Service/input_Username_username'. Try using Self-healing.
+
+02-03-2024T20:14:50 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+02-03-2024T20:14:50 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+02-03-2024T20:14:50 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+02-03-2024T20:14:50 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+02-03-2024T20:14:50 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+02-03-2024T20:14:50 - [MESSAGE][WARNING] - Cannot take screenshot
+
+02-03-2024T20:14:50 - [MESSAGE][FAILED] - Unable to set text 'John Doe' of object 'Object Repository/Page_CURA Healthcare Service/input_Username_username' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'John Doe' of object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CURA_TL_AppointmentConfirmation.sampleBeforeTestCase(CURA_TL_AppointmentConfirmation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390653862.run(TempTestSuite1709390653862.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1064)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:1049)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:1035)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1020)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+02-03-2024T20:14:50 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Unable to set text 'John Doe' of object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CURA_TL_AppointmentConfirmation.sampleBeforeTestCase(CURA_TL_AppointmentConfirmation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390653862.run(TempTestSuite1709390653862.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1064)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:1049)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:1035)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1020)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:14:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-03-2024T20:14:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-03-2024T20:14:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-03-2024T20:14:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-03-2024T20:14:52 - [TEST_STEP][PASSED] - example.MyKeywords.AppLogin(): example.MyKeywords.AppLogin is PASSED
+
+02-03-2024T20:14:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+02-03-2024T20:14:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-03-2024T20:14:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-03-2024T20:14:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-03-2024T20:15:06 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+02-03-2024T20:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+02-03-2024T20:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+02-03-2024T20:15:09 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+02-03-2024T20:15:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+02-03-2024T20:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+02-03-2024T20:15:12 - [MESSAGE][PASSED] - example.MyKeywords.AppLogin is PASSED
+
+02-03-2024T20:15:12 - [TEST_STEP][PASSED] - for (def n : (0..2)): example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:15:12 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), 1): All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:15:13 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:15:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:15:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:15:13 - [TEST_STEP][PASSED] - if (n == 0): Delayed 1 second(s)
+
+02-03-2024T20:15:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:15:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:15:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+02-03-2024T20:15:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+02-03-2024T20:15:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/txtVisitDate"), "02/09/2022"): Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:15:16 - [MESSAGE][PASSED] - Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:15:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/textarea_Comment_comment"), "Test Katalon"): Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:15:17 - [MESSAGE][PASSED] - Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:15:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:15:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2Appointment Confirmation"), 3): Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:15:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:15:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnGotoHomepage")): Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:15:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:15:21 - [TEST_STEP][PASSED] - example.MyKeywords.Congrats("You"): example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:15:21 - [MESSAGE][PASSED] - example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:15:21 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), 1): All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:15:22 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:15:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:15:22 - [TEST_STEP][PASSED] - if (n == 0): null
+
+02-03-2024T20:15:22 - [TEST_STEP][PASSED] - else if (n == 1): Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:15:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:15:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/txtVisitDate"), "02/09/2022"): Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:15:23 - [MESSAGE][PASSED] - Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:15:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/textarea_Comment_comment"), "Test Katalon"): Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:15:24 - [MESSAGE][PASSED] - Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:15:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:15:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2Appointment Confirmation"), 3): Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:15:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:15:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnGotoHomepage")): Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:15:26 - [TEST_STEP][PASSED] - example.MyKeywords.Congrats("You"): example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:15:26 - [MESSAGE][PASSED] - example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:15:26 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), 1): All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:15:27 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:15:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:15:28 - [TEST_STEP][PASSED] - if (n == 0): null
+
+02-03-2024T20:15:28 - [TEST_STEP][PASSED] - else if (n == 1): null
+
+02-03-2024T20:15:28 - [TEST_STEP][PASSED] - else: Delayed 1 second(s)
+
+02-03-2024T20:15:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:15:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+02-03-2024T20:15:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+02-03-2024T20:15:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/txtVisitDate"), "02/09/2022"): Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:15:30 - [MESSAGE][PASSED] - Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:15:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/textarea_Comment_comment"), "Test Katalon"): Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:15:31 - [MESSAGE][PASSED] - Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:15:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:15:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2Appointment Confirmation"), 3): Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:15:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:15:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnGotoHomepage")): Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:15:34 - [TEST_STEP][PASSED] - example.MyKeywords.Congrats("You"): example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:15:34 - [MESSAGE][PASSED] - example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:15:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+02-03-2024T20:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+02-03-2024T20:15:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_History")): Object: 'Object Repository/Page_CURA Healthcare Service/a_History' is clicked on
+
+02-03-2024T20:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_History' is clicked on
+
+02-03-2024T20:15:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+02-03-2024T20:15:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_201410\\CURA_TestSuites\\TS_Cross Browser Testing Using Test Cloud\\20240302_201413\\1709390736543.png]]
+
+02-03-2024T20:15:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_CURA Healthcare Service/div_History"), "History"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/div_History' are matched.
+
+02-03-2024T20:15:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/div_History' are matched.
+
+02-03-2024T20:15:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-03-2024T20:15:37 - [MESSAGE][PASSED] - Browser is closed
+
+02-03-2024T20:15:37 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at CURA_TL_AppointmentConfirmation.sampleAfterTestCase(CURA_TL_AppointmentConfirmation.groovy:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390653862.run(TempTestSuite1709390653862.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:15:37 - [TEST_STEP][ERROR] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at CURA_TL_AppointmentConfirmation.sampleAfterTestCase(CURA_TL_AppointmentConfirmation.groovy:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390653862.run(TempTestSuite1709390653862.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:15:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'. Try using Self-healing.
+
+02-03-2024T20:15:37 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+02-03-2024T20:15:38 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+02-03-2024T20:15:38 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+02-03-2024T20:15:38 - [MESSAGE][WARNING] - Cannot take screenshot
+
+02-03-2024T20:15:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at CURA_TL_AppointmentConfirmation.sampleAfterTestCase(CURA_TL_AppointmentConfirmation.groovy:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390653862.run(TempTestSuite1709390653862.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+02-03-2024T20:15:38 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at CURA_TL_AppointmentConfirmation.sampleAfterTestCase(CURA_TL_AppointmentConfirmation.groovy:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390653862.run(TempTestSuite1709390653862.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-03-2024T20:14:49 - [TEST_SUITE][PASSED] - TS_Cross Browser Testing Using Test Cloud: Test Cases/TC_CURA_MakeApointment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_Cross Browser Testing Using Test Cloud" tests="1" failures="0" errors="0" time="38.684" skipped="0" timestamp="02-03-2024T20:15:06" hostname="priyanka - LAPTOP-LPTFOJFH" id="Test Suites/CURA_TestSuites/TS_Cross Browser Testing Using Test Cloud">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_201410\\CURA_TestSuites\\TS_Cross Browser Testing Using Test Cloud\\20240302_201415"/>
+         <property name="logFiles" value="C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_201410\\CURA_TestSuites\\TS_Cross Browser Testing Using Test Cloud\\20240302_201415\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_201410\\CURA_TestSuites\\TS_Cross Browser Testing Using Test Cloud\\20240302_201415\\1709390742794.png"/>
+         <property name="hostName" value="priyanka - LAPTOP-LPTFOJFH"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.43.178"/>
+         <property name="sessionId" value="cca3dfb96f8b934747d5db272954dc6c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_CURA_MakeApointment" time="38.351" classname="Test Cases/TC_CURA_MakeApointment" status="PASSED">
+         <system-out><![CDATA[02-03-2024T20:15:06 - [TEST_CASE][PASSED] - Test Cases/TC_CURA_MakeApointment: Test Cases/TC_CURA_MakeApointment
+
+02-03-2024T20:15:06 - [TEST_STEP][ERROR] - Start listener action : sampleBeforeTestCase: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'John Doe' of object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CURA_TL_AppointmentConfirmation.sampleBeforeTestCase(CURA_TL_AppointmentConfirmation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390655396.run(TempTestSuite1709390655396.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1064)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:1049)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:1035)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1020)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:15:06 - [TEST_STEP][ERROR] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): com.kms.katalon.core.exception.StepFailedException: Unable to set text 'John Doe' of object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CURA_TL_AppointmentConfirmation.sampleBeforeTestCase(CURA_TL_AppointmentConfirmation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390655396.run(TempTestSuite1709390655396.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1064)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:1049)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:1035)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1020)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:15:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_CURA Healthcare Service/input_Username_username'. Try using Self-healing.
+
+02-03-2024T20:15:07 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+02-03-2024T20:15:07 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+02-03-2024T20:15:07 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+02-03-2024T20:15:07 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+02-03-2024T20:15:07 - [MESSAGE][WARNING] - [SELF-HEALING] Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+
+02-03-2024T20:15:07 - [MESSAGE][WARNING] - Cannot take screenshot
+
+02-03-2024T20:15:07 - [MESSAGE][FAILED] - Unable to set text 'John Doe' of object 'Object Repository/Page_CURA Healthcare Service/input_Username_username' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'John Doe' of object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CURA_TL_AppointmentConfirmation.sampleBeforeTestCase(CURA_TL_AppointmentConfirmation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390655396.run(TempTestSuite1709390655396.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1064)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:1049)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:1035)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1020)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+02-03-2024T20:15:07 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Unable to set text 'John Doe' of object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at CURA_TL_AppointmentConfirmation.sampleBeforeTestCase(CURA_TL_AppointmentConfirmation.groovy:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390655396.run(TempTestSuite1709390655396.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1064)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:1049)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:1035)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1020)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:15:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-03-2024T20:15:07 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+02-03-2024T20:15:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-03-2024T20:15:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-03-2024T20:15:09 - [TEST_STEP][PASSED] - example.MyKeywords.AppLogin(): example.MyKeywords.AppLogin is PASSED
+
+02-03-2024T20:15:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+02-03-2024T20:15:10 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+02-03-2024T20:15:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-03-2024T20:15:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-03-2024T20:15:15 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+02-03-2024T20:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+02-03-2024T20:15:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+02-03-2024T20:15:18 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+02-03-2024T20:15:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+02-03-2024T20:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+02-03-2024T20:15:19 - [MESSAGE][PASSED] - example.MyKeywords.AppLogin is PASSED
+
+02-03-2024T20:15:19 - [TEST_STEP][PASSED] - for (def n : (0..2)): example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:15:19 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), 1): All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:15:21 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:15:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:15:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:15:21 - [TEST_STEP][PASSED] - if (n == 0): Delayed 1 second(s)
+
+02-03-2024T20:15:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:15:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:15:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+02-03-2024T20:15:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+02-03-2024T20:15:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/txtVisitDate"), "02/09/2022"): Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:15:23 - [MESSAGE][PASSED] - Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:15:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/textarea_Comment_comment"), "Test Katalon"): Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:15:24 - [MESSAGE][PASSED] - Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:15:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:15:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2Appointment Confirmation"), 3): Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:15:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:15:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnGotoHomepage")): Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:15:26 - [TEST_STEP][PASSED] - example.MyKeywords.Congrats("You"): example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:15:26 - [MESSAGE][PASSED] - example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:15:26 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), 1): All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:15:27 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:15:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:15:28 - [TEST_STEP][PASSED] - if (n == 0): null
+
+02-03-2024T20:15:28 - [TEST_STEP][PASSED] - else if (n == 1): Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:15:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:15:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/txtVisitDate"), "02/09/2022"): Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:15:29 - [MESSAGE][PASSED] - Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:15:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/textarea_Comment_comment"), "Test Katalon"): Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:15:30 - [MESSAGE][PASSED] - Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:15:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:15:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:15:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2Appointment Confirmation"), 3): Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:15:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:15:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnGotoHomepage")): Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:15:33 - [TEST_STEP][PASSED] - example.MyKeywords.Congrats("You"): example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:15:33 - [MESSAGE][PASSED] - example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:15:33 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), 1): All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:15:34 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'
+
+02-03-2024T20:15:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission' is clicked on
+
+02-03-2024T20:15:35 - [TEST_STEP][PASSED] - if (n == 0): null
+
+02-03-2024T20:15:35 - [TEST_STEP][PASSED] - else if (n == 1): null
+
+02-03-2024T20:15:35 - [TEST_STEP][PASSED] - else: Delayed 1 second(s)
+
+02-03-2024T20:15:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+02-03-2024T20:15:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+02-03-2024T20:15:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+02-03-2024T20:15:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/txtVisitDate"), "02/09/2022"): Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:15:37 - [MESSAGE][PASSED] - Text '02/09/2022' is set on object 'Object Repository/Page_CURA Healthcare Service/txtVisitDate'
+
+02-03-2024T20:15:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/textarea_Comment_comment"), "Test Katalon"): Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:15:38 - [MESSAGE][PASSED] - Text 'Test Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+02-03-2024T20:15:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-03-2024T20:15:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2Appointment Confirmation"), 3): Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:15:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2Appointment Confirmation' is present
+
+02-03-2024T20:15:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/btnGotoHomepage")): Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/btnGotoHomepage' is clicked on
+
+02-03-2024T20:15:40 - [TEST_STEP][PASSED] - example.MyKeywords.Congrats("You"): example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:15:40 - [MESSAGE][PASSED] - example.MyKeywords.Congrats is PASSED
+
+02-03-2024T20:15:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+02-03-2024T20:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+02-03-2024T20:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_History")): Object: 'Object Repository/Page_CURA Healthcare Service/a_History' is clicked on
+
+02-03-2024T20:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_History' is clicked on
+
+02-03-2024T20:15:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+02-03-2024T20:15:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\priyanka\\Katalon Studio\\CURA_HealthCare_Service_Project_Final\\Reports\\20240302_201410\\CURA_TestSuites\\TS_Cross Browser Testing Using Test Cloud\\20240302_201415\\1709390742794.png]]
+
+02-03-2024T20:15:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_CURA Healthcare Service/div_History"), "History"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/div_History' are matched.
+
+02-03-2024T20:15:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/div_History' are matched.
+
+02-03-2024T20:15:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-03-2024T20:15:43 - [MESSAGE][PASSED] - Browser is closed
+
+02-03-2024T20:15:43 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at CURA_TL_AppointmentConfirmation.sampleAfterTestCase(CURA_TL_AppointmentConfirmation.groovy:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390655396.run(TempTestSuite1709390655396.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:15:43 - [TEST_STEP][ERROR] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at CURA_TL_AppointmentConfirmation.sampleAfterTestCase(CURA_TL_AppointmentConfirmation.groovy:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390655396.run(TempTestSuite1709390655396.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-03-2024T20:15:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'. Try using Self-healing.
+
+02-03-2024T20:15:43 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+02-03-2024T20:15:44 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+02-03-2024T20:15:44 - [MESSAGE][WARNING] - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+
+02-03-2024T20:15:44 - [MESSAGE][WARNING] - Cannot take screenshot
+
+02-03-2024T20:15:44 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at CURA_TL_AppointmentConfirmation.sampleAfterTestCase(CURA_TL_AppointmentConfirmation.groovy:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390655396.run(TempTestSuite1709390655396.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+02-03-2024T20:15:44 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at CURA_TL_AppointmentConfirmation.sampleAfterTestCase(CURA_TL_AppointmentConfirmation.groovy:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709390655396.run(TempTestSuite1709390655396.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-LPTFOJFH', ip: '192.168.43.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1036)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:921)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:893)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:739)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:723)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1416)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-03-2024T20:15:06 - [TEST_SUITE][PASSED] - TS_Cross Browser Testing Using Test Cloud: Test Cases/TC_CURA_MakeApointment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
